@@ -188,4 +188,5 @@ def done(id):
 app.app_context().push()
 db.create_all()
 
+
 app.run(debug=False, port=8050,host='0.0.0.0')
